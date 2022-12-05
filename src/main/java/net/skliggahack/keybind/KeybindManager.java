@@ -64,7 +64,7 @@ public class KeybindManager implements KeyPressListener
 
 	private void addDefaultKeybinds()
 	{
-		addKeybind(new Keybind("ctrl-gui", GLFW.GLFW_KEY_RIGHT_CONTROL, true, false, () ->
+		addKeybind(new Keybind("ctrl-gui", GLFW.GLFW_KEY_LEFT_ALT, true, false, () ->
 		{
 			if (MC.currentScreen != null)
 				return;
